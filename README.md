@@ -1,0 +1,235 @@
+## Heroes included
+
+- Captain America appears 8 times
+- Captain Marvel appears 8 times
+- Hawkeye appears 3 times
+- Black Panther appears 6 times
+- Black Widow appears 5 times
+- Spider-Woman appears 5 times
+- Groot appears 1 times
+- Rocket Raccoon appears 2 times
+- Doctor Strange appears 2 times
+- Spider-Man appears 10 times
+- Thor appears 7 times
+- Scarlet Witch appears 2 times
+- Hulk appears 5 times
+- Ms. Marvel appears 4 times
+- She-Hulk appears 7 times
+- Iron Man appears 7 times
+- Ant-Man appears 3 times
+- Quicksilver appears 3 times
+- Wasp appears 2 times
+
+## Basic Aspect
+
+- Basic - Resource - Strength appears 88 times
+- Basic - Resource - Energy appears 86 times
+- Basic - Resource - Genius appears 84 times
+- Basic - Support - Helicarrier appears 57 times
+- Basic - Support - Avengers Mansion appears 55 times
+- Basic - Ally - Nick Fury appears 49 times
+- Basic - Ally - Mockingbird appears 47 times
+- Basic - Event - First Aid appears 45 times
+- Basic - Support - Quincarrier appears 30 times
+- Basic - Upgrade - Honorary Avenger appears 29 times
+- Basic - Upgrade - Endurance appears 29 times
+- Basic - Event - Earth's Mightiest Heroes appears 22 times
+- Basic - Upgrade - Down Time appears 22 times
+- Basic - Upgrade - Espionage appears 19 times
+- Basic - Event - Haymaker appears 18 times
+- Basic - Upgrade - Enhanced Reflexes appears 17 times
+- Basic - Support - Avengers Tower appears 16 times
+- Basic - Event - Emergency appears 14 times
+- Basic - Ally - Lockjaw appears 12 times
+- Basic - Upgrade - Enhanced Physique appears 12 times
+- Basic - Upgrade - Enhanced Awareness appears 11 times
+- Basic - Upgrade - Tenacity appears 10 times
+- Basic - Ally - Ironheart appears 9 times
+- Basic - Upgrade - Target Acquired appears 8 times
+- Basic - Upgrade - Adrenaline Rush appears 8 times
+- Basic - Ally - Heimdall appears 7 times
+- Basic - Support - Team-Building Exercise appears 6 times
+- Basic - Resource - The Power in All of Us appears 6 times
+- Basic - Event - Spiritual Meditation appears 6 times
+- Basic - Ally - War Machine appears 5 times
+- Basic - Upgrade - Resourceful appears 5 times
+- Basic - Event - Swarm Tactics appears 4 times
+- Basic - Upgrade - The Sorcerer Supreme appears 3 times
+- Basic - Event - To the Rescue! appears 3 times
+- Basic - Event - Assess the Situation appears 3 times
+- Basic - Ally - Spider-Man appears 3 times
+- Basic - Upgrade - Civic Duty appears 2 times
+- Basic - Event - Recuperation appears 2 times
+- Basic - Ally - Groot appears 2 times
+- Basic - Ally - Rocket Raccoon appears 1 times
+- Basic - Upgrade - Deft Focus appears 1 times
+- Basic - Event - Invulnerability appears 0 times
+- Basic - Event - Warning appears 0 times
+- Basic - Event - Swarm Tactics appears 0 times
+- Basic - Event - Athletic Conditioning appears 0 times
+- Basic - Event - Order and Chaos appears 0 times
+- Basic - Event - Beat 'Em Up appears 0 times
+- Basic - Event - Flora and Fauna appears 0 times
+- Basic - Event - Flora and Fauna appears 0 times
+- Basic - Upgrade - Booster Boots appears 0 times
+
+## Justice Aspect
+
+- Justice - Event - For Justice! appears 44 times
+- Justice - Resource - The Power of Justice appears 35 times
+- Justice - Event - Clear the Area appears 30 times
+- Justice - Upgrade - Under Surveillance appears 24 times
+- Justice - Upgrade - Counterintelligence appears 20 times
+- Justice - Upgrade - Followed appears 18 times
+- Justice - Event - Concussive Blow appears 17 times
+- Justice - Support - Interrogation Room appears 15 times
+- Justice - Ally - Jessica Jones appears 14 times
+- Justice - Upgrade - Heroic Intuition appears 14 times
+- Justice - Ally - Quake appears 13 times
+- Justice - Ally - Agent Coulson appears 12 times
+- Justice - Ally - Daredevil appears 11 times
+- Justice - Upgrade - Skilled Investigator appears 11 times
+- Justice - Event - Inconspicuous appears 10 times
+- Justice - Event - Foiled! appears 9 times
+- Justice - Event - Turn the Tide appears 9 times
+- Justice - Event - Stealth Strike appears 8 times
+- Justice - Event - Great Responsibility appears 7 times
+- Justice - Support - Surveillance Team appears 7 times
+- Justice - Support - Beat Cop appears 7 times
+- Justice - Event - Lay Down the Law appears 6 times
+- Justice - Upgrade - Spycraft appears 4 times
+- Justice - Ally - Wiccan appears 4 times
+- Justice - Ally - Spider-Man appears 3 times
+- Justice - Upgrade - Sense of Justice appears 3 times
+- Justice - Event - Swift Retribution appears 3 times
+- Justice - Event - Multitasking appears 2 times
+- Justice - Ally - Speed appears 1 times
+- Justice - Event - Running Interference appears 0 times
+- Justice - Event - Crisis Averted appears 0 times
+
+## Aggression Aspect
+
+- Aggression - Event - Relentless Assault appears 28 times
+- Aggression - Upgrade - Combat Training appears 25 times
+- Aggression - Event - Chase Them Down appears 23 times
+- Aggression - Resource - The Power of Aggression appears 21 times
+- Aggression - Event - Uppercut appears 17 times
+- Aggression - Event - Skilled Strike appears 16 times
+- Aggression - Event - Get Over Here! appears 15 times
+- Aggression - Ally - Hulk appears 14 times
+- Aggression - Upgrade - Battle Fury appears 14 times
+- Aggression - Event - Mean Swing appears 13 times
+- Aggression - Ally - Tigra appears 11 times
+- Aggression - Event - Venom Blast appears 10 times
+- Aggression - Ally - Spider-Girl appears 10 times
+- Aggression - Event - Press the Advantage appears 9 times
+- Aggression - Event - Melee appears 9 times
+- Aggression - Event - Drop Kick appears 9 times
+- Aggression - Upgrade - Jarnbjorn appears 8 times
+- Aggression - Event - Toe to Toe appears 8 times
+- Aggression - Event - "You'll Pay for That!" appears 8 times
+- Aggression - Ally - Valkyrie appears 7 times
+- Aggression - Support - Tac Team appears 6 times
+- Aggression - Support - Hall of Heroes appears 6 times
+- Aggression - Ally - Sentry appears 6 times
+- Aggression - Event - Moment of Triumph appears 6 times
+- Aggression - Event - Piercing Strike appears 5 times
+- Aggression - Ally - Hercules appears 4 times
+- Aggression - Upgrade - Counterattack appears 4 times
+- Aggression - Ally - Brawn appears 4 times
+- Aggression - Upgrade - Enraged appears 3 times
+- Aggression - Ally - Wasp appears 3 times
+- Aggression - Upgrade - Martial Prowess appears 2 times
+- Aggression - Event - Into the Fray appears 2 times
+- Aggression - Support - Boot Camp appears 2 times
+- Aggression - Upgrade - Lie in Wait appears 2 times
+- Aggression - Upgrade - Hand Cannon appears 2 times
+- Aggression - Ally - Thor appears 1 times
+- Aggression - Ally - Bug appears 1 times
+- Aggression - Upgrade - Follow Through appears 1 times
+- Aggression - Ally - She-Hulk appears 0 times
+- Aggression - Event - Surprise Attack appears 0 times
+- Aggression - Upgrade - Brute Force appears 0 times
+- Aggression - Event - Browbeat appears 0 times
+- Aggression - Event - Looking for Trouble appears 0 times
+
+## Protection Aspect
+
+- Protection - Upgrade - Indomitable appears 33 times
+- Protection - Upgrade - Energy Barrier appears 28 times
+- Protection - Support - Med Team appears 26 times
+- Protection - Resource - The Power of Protection appears 20 times
+- Protection - Event - Preemptive Strike appears 19 times
+- Protection - Event - Counter-Punch appears 18 times
+- Protection - Upgrade - Armored Vest appears 17 times
+- Protection - Event - Tackle appears 14 times
+- Protection - Event - Get Behind Me! appears 13 times
+- Protection - Event - Momentum Shift appears 13 times
+- Protection - Upgrade - Unflappable appears 11 times
+- Protection - Event - Contaminant Immunity appears 10 times
+- Protection - Ally - Black Widow appears 9 times
+- Protection - Ally - Luke Cage appears 7 times
+- Protection - Ally - Nova appears 7 times
+- Protection - Ally - Brother Voodoo appears 6 times
+- Protection - Ally - Clea appears 6 times
+- Protection - Event - Desperate Defense appears 6 times
+- Protection - Support - The Night Nurse appears 6 times
+- Protection - Event - Expert Defense appears 5 times
+- Protection - Upgrade - Electrostatic Armor appears 5 times
+- Protection - Upgrade - Defensive Stance appears 4 times
+- Protection - Ally - Iron Fist appears 3 times
+- Protection - Event - Perseverance appears 3 times
+- Protection - Event - Never Back Down appears 3 times
+- Protection - Event - Second Wind appears 2 times
+- Protection - Event - Side Step appears 2 times
+- Protection - Event - Muster Courage appears 0 times
+- Protection - Ally - Multiple Man appears 0 times
+- Protection - Ally - Warlock appears 0 times
+- Protection - Upgrade - Nerves of Steel appears 0 times
+- Protection - Event - Bait and Switch appears 0 times
+- Protection - Ally - Starhawk appears 0 times
+- Protection - Event - Fighting Fit appears 0 times
+- Protection - Upgrade - Dauntless appears 0 times
+- Protection - Upgrade - Hard to Ignore appears 0 times
+
+## Leadership Aspect
+
+- Leadership - Event - Make the Call appears 49 times
+- Leadership - Event - Strength In Numbers appears 37 times
+- Leadership - Resource - The Power of Leadership appears 35 times
+- Leadership - Upgrade - Rapid Response appears 28 times
+- Leadership - Event - Get Ready appears 27 times
+- Leadership - Event - Lead from the Front appears 27 times
+- Leadership - Upgrade - Inspired appears 24 times
+- Leadership - Ally - Squirrel Girl appears 24 times
+- Leadership - Ally - Maria Hill appears 22 times
+- Leadership - Ally - Hawkeye appears 19 times
+- Leadership - Support - The Triskelion appears 15 times
+- Leadership - Ally - Wonder Man appears 15 times
+- Leadership - Event - Avengers Assemble! appears 14 times
+- Leadership - Support - Quinjet appears 14 times
+- Leadership - Ally - Falcon appears 13 times
+- Leadership - Ally - Vision appears 12 times
+- Leadership - Event - Pheromones appears 10 times
+- Leadership - Ally - Hawkeye appears 9 times
+- Leadership - Event - Morale Boost appears 7 times
+- Leadership - Ally - Iron Man appears 7 times
+- Leadership - Ally - Ant-Man appears 7 times
+- Leadership - Event - Call for Aid appears 7 times
+- Leadership - Upgrade - Power Gloves appears 7 times
+- Leadership - Upgrade - Reinforced Suit appears 7 times
+- Leadership - Upgrade - Sky Cycle appears 6 times
+- Leadership - Support - Team Training appears 6 times
+- Leadership - Ally - Stinger appears 6 times
+- Leadership - Ally - Black Knight appears 4 times
+- Leadership - Event - Ready for Action appears 3 times
+- Leadership - Event - Teamwork appears 3 times
+- Leadership - Ally - Ronin appears 3 times
+- Leadership - Event - Moxie appears 3 times
+- Leadership - Event - United We Stand appears 2 times
+- Leadership - Ally - Goliath appears 1 times
+- Leadership - Ally - U.S. Agent appears 1 times
+- Leadership - Event - Inspiring Presence appears 0 times
+- Leadership - Ally - Giant-Man appears 0 times
+- Leadership - Event - All for One appears 0 times
+- Leadership - Event - Last Stand appears 0 times

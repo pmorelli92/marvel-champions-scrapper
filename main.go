@@ -95,7 +95,7 @@ func main() {
 	}
 
 	fmt.Println("-----")
-	fmt.Println("HEROES INCLUDED")
+	fmt.Println("DECKS SCRAPPED")
 	fmt.Println("-----")
 	for key, value := range heroesMap {
 		fmt.Println(fmt.Sprintf("%s appears %d times", key, value))

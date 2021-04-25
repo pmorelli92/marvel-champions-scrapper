@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"os"
 	"regexp"
+	"sort"
 	"strconv"
 	"strings"
 )
@@ -93,42 +94,6 @@ func main() {
 		}
 	}
 
-	// Create a card map (key: faction) to store the cards those decks are using
-	cardsFactionMap := make(map[string][]cardStruct, 0)
-
-	// For each card ID get the card name
-	for cardID, value := range cardsMap {
-		url = "https://marvelcdb.com/api/public/card/" + cardID + ".json"
-
-		rs, err := http.Get(url)
-		if err != nil {
-			fmt.Println(err)
-			os.Exit(1)
-		}
-
-		body, err := io.ReadAll(rs.Body)
-		if err != nil {
-			fmt.Println(err)
-			os.Exit(1)
-		}
-
-		// Unmarshall the result into the deck struct
-		card := cardStruct{}
-		err = json.Unmarshal(body, &card)
-		if err != nil {
-			fmt.Println(err)
-			os.Exit(1)
-		}
-
-		if card.Faction == "Hero" {
-			continue
-		}
-
-		// Add the quantity
-		card.TotalUses = value
-		cardsFactionMap[card.Faction] = append(cardsFactionMap[card.Faction], card)
-	}
-
 	fmt.Println("-----")
 	fmt.Println("HEROES INCLUDED")
 	fmt.Println("-----")
@@ -136,13 +101,101 @@ func main() {
 		fmt.Println(fmt.Sprintf("%s appears %d times", key, value))
 	}
 
-	for key, value := range cardsFactionMap {
-		fmt.Println("-----")
-		fmt.Println(strings.ToUpper(key))
-		fmt.Println("-----")
-		for _, card := range value {
-			fmt.Println(fmt.Sprintf("%s - %s - %s appears %d times", card.Faction, card.Type, card.Name, card.TotalUses))
+	// Get all the cards
+	url = "https://marvelcdb.com/api/public/cards/?_format=json"
+
+	rs, err := http.Get(url)
+	if err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
+
+	body, err := io.ReadAll(rs.Body)
+	if err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
+
+	// Unmarshall the result into the deck struct
+	var cards []cardStruct
+	err = json.Unmarshal(body, &cards)
+	if err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
+
+	// Get different arrays so we order and print them separately
+	var basicCards []cardStruct
+	var justiceCards []cardStruct
+	var aggressionCards []cardStruct
+	var leadershipCards []cardStruct
+	var protectionCards []cardStruct
+
+	// For each card add it to corresponding array with the number of usages
+	for _, card := range cards {
+
+		// Skip duplicate cards, like Energy (that is tagged with different id for different packs)
+		if card.DuplicateOf != "" {
+			continue
 		}
+
+		// Wasp's Swarm Tactics is not marked as a duplicate.
+		// Decks are using AntMan's Swarm Tactics instead.
+		if card.Code == "13020" {
+			continue
+		}
+
+		// Assign number of usages
+		card.TotalUses = cardsMap[card.Code]
+
+		switch card.Faction {
+		case "Basic":
+			basicCards = append(basicCards, card)
+		case "Justice":
+			justiceCards = append(justiceCards, card)
+		case "Aggression":
+			aggressionCards = append(aggressionCards, card)
+		case "Protection":
+			protectionCards = append(protectionCards, card)
+		case "Leadership":
+			leadershipCards = append(leadershipCards, card)
+		}
+	}
+
+	// Order all the arrays
+	sort.SliceStable(basicCards, func(i, j int) bool {
+		return basicCards[i].TotalUses > basicCards[j].TotalUses
+	})
+
+	sort.SliceStable(justiceCards, func(i, j int) bool {
+		return justiceCards[i].TotalUses > justiceCards[j].TotalUses
+	})
+
+	sort.SliceStable(aggressionCards, func(i, j int) bool {
+		return aggressionCards[i].TotalUses > aggressionCards[j].TotalUses
+	})
+
+	sort.SliceStable(protectionCards, func(i, j int) bool {
+		return protectionCards[i].TotalUses > protectionCards[j].TotalUses
+	})
+
+	sort.SliceStable(leadershipCards, func(i, j int) bool {
+		return leadershipCards[i].TotalUses > leadershipCards[j].TotalUses
+	})
+
+	printAspect("BASIC", basicCards)
+	printAspect("JUSTICE", justiceCards)
+	printAspect("AGGRESSION", aggressionCards)
+	printAspect("PROTECTION", protectionCards)
+	printAspect("LEADERSHIP", leadershipCards)
+}
+
+func printAspect(aspectName string, cards []cardStruct) {
+	fmt.Println("-----")
+	fmt.Println(strings.ToUpper(aspectName) + " ASPECT")
+	fmt.Println("-----")
+	for _, card := range cards {
+		fmt.Println(fmt.Sprintf("%s - %s - %s - %s appears %d times", card.Code, card.Faction, card.Type, card.Name, card.TotalUses))
 	}
 }
 
@@ -152,8 +205,10 @@ type deckStruct struct {
 }
 
 type cardStruct struct {
-	Name      string `json:"real_name"`
-	Type      string `json:"type_name"`
-	Faction   string `json:"faction_name"`
-	TotalUses int    `json:"-"`
+	Code        string `json:"code"`
+	Name        string `json:"real_name"`
+	Type        string `json:"type_name"`
+	Faction     string `json:"faction_name"`
+	TotalUses   int    `json:"-"`
+	DuplicateOf string `json:"duplicate_of_code"`
 }
